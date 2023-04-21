@@ -27,19 +27,3 @@ nav > ul > li > a:hover {
     transition-timing-function: ease-in-out;
     font-size: 120%;
 }
-
-#relationship{
-    text-align: justify;
-}
-
-#relationship > h2{ 
-    text-align: center;
-}
-
-#showanswer {
-    transform: translateX(219%);
-}
-
-#myanswer {
-    visibility: hidden;
-}
