@@ -2,6 +2,10 @@ html {
     letter-spacing: 1px;
     max-width: 1000px;
     margin: 0 auto;
+    background-image: linear-gradient(#000, #000);
+    background-size: 2px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 nav > ul{
@@ -26,6 +30,14 @@ nav > ul > li > a:hover {
 
 #relationship{
     text-align: justify;
+}
+
+#relationship > h2{ 
+    text-align: center;
+}
+
+#showanswer {
+    transform: translateX(219%);
 }
 
 #myanswer {
