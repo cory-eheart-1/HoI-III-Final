@@ -1,0 +1,15 @@
+#relationship{
+    text-align: justify;
+}
+
+#relationship > h2{ 
+    text-align: center;
+}
+
+#showanswer {
+    transform: translateX(219%);
+}
+
+#myanswer {
+    visibility: hidden;
+}
