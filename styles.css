@@ -1,0 +1,31 @@
+html {
+    letter-spacing: 1px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+}
+
+nav > ul > li > a:hover {
+    color: gray;
+    text-decoration: underline;
+    transition-timing-function: ease-in-out;
+    font-size: 120%;
+}
+
+#relationship{
+    
+}
+
+#myanswer {
+    visibility: hidden;
+}
