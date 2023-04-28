@@ -1,3 +1,25 @@
 #empire-answer {
     visibility: hidden;
 }
+
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image > p {
+    width: 700px;
+}
+
+#image > section > img {
+    height: auto;
+    width: 200px;
+}
+
+#image > section > p {
+    margin-top: 1px;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
