@@ -1,4 +1,4 @@
-function showAnswer() {
-    var answer = document.getElementById("myanswer");
+function showAnswer(title) {
+    var answer = document.getElementById(title);
     answer.style.visibility = 'visible';
 }
