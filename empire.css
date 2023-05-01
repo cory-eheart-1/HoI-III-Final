@@ -1,5 +1,9 @@
 #empire-answer {
     visibility: hidden;
+    height: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 200px;
 }
 
 #image {
@@ -14,7 +18,14 @@
 
 #image > section > img {
     height: auto;
-    width: 200px;
+    width: 150px;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+
+#image > section > img:hover {
+    width: 250px;
+    height: auto;
 }
 
 #image > section > p {
